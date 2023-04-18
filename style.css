@@ -4,36 +4,74 @@ html{
 }
 
 .container {
-	border: 1px black solid;
-	margin: 0 70px;
-	padding: 0 10px;
-  }
-  
-  .small {
-	font-size: 12px;
-  }
-  
-  .big {
-	font-weight: 900;
-	font-size: 20px;
-  }
-  .container2 {
-	border: 1px black solid;
-	margin: 0 10px;
-	display: flex;
-  }
-  
-  .block {
-	border: 1px lightgrey solid;
-	margin: 10px;
-	border-radius: 10px;
-	padding: 5px;
-	box-shadow: 2px 5px 10px lightgrey;
-  }
-  
-  .block p {
+  /* border: 1px black solid; */
+  margin: 0 70px;
+  padding: 0 10px;
+}
+
+.small {
+  font-size: 13px;
+  margin-top: 0;
+  color: rgb(75, 75, 75);
+}
+
+.headline {
+  /* border: 1px red solid; */
+  display: flex;
+  align-items: center;
+}
+
+.big {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0;
+}
+.button {
+  /* border: 1px black solid; */
+  border-radius: 50px;
+  width: 28px;
+  height: 13px;
+  background-color: rgb(122, 193, 72);
+  margin-left: 8px;
+  margin-right: 6px;
+  align-self: center;
+  position: relative;
+  padding: 1px;
+}
+
+.circle {
+  /* border: 1px red solid; */
+  background-color: white;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin: 1px;
+  top: 1.5px;
+  left: 1.5px;
+}
+
+.headline > p:nth-child(3) {
+  font-size: 14px;
+}
+.container2 {
+  /* border: 1px black solid; */
+  /* margin: 0 10px; */
+  display: flex;
+  flex: 0 0 25%;
+}
+
+.block {
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 15px 0 15px 15px;
+  box-shadow: 2px 3px 10px lightgrey;
+  width: 300px;
+}
+
+.block p {
 	margin: 0;
-  }
+}
 
 
 .row {
@@ -56,12 +94,21 @@ html{
 
 #column_1_1_1{
 	width: 10%; 
-	padding-left: 5%; 
+	padding-left: 2%; 
 }
 
 #column_1_1_7{
 	width: 15%; 
 }	
+
+#column_1_1_8{
+  width: 12px;
+}
+
+.nav_btn{
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+}
 
 #btn_signup{
 	font-size: 13px; 
@@ -78,13 +125,14 @@ html{
 	/*Font*/
 	color: white;
 	font-weight: bold; 
+  text-decoration: none;
 }
 
 #search{
 	border-radius: 8px; 
 	border: none; 
 	background-color: lightgray;
-	width: 40px; 
+	width: 150px; 
 	height: 40px; 
 }
 
@@ -92,6 +140,20 @@ html{
 	display: flex; 
 	justify-content: center; 
 	align-items: center; 
-	margin-right: 10%; 
 }
 
+.red {
+  border-left: rgba(239, 38, 38, 0.934) 8px solid;
+}
+
+.green {
+  border-left: rgb(122, 193, 72) 8px solid;
+}
+
+.grey {
+  border-left: grey 8px solid;
+}
+
+.font-red {
+  color: rgba(220, 78, 78, 0.928);
+}
