@@ -1,3 +1,8 @@
+html{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 15px; 
+}
+
 .container {
   /* border: 1px black solid; */
   margin: 0 70px;
@@ -62,10 +67,69 @@
   padding: 15px 0 15px 15px;
   box-shadow: 2px 3px 10px lightgrey;
   width: 300px;
+
+  .block p {
+	margin: 0;
+  }
+
+
+.row {
+	height: 70px; 
+	display:flex; 
+	align-items: center; 
 }
 
-.block p {
-  margin: 0;
+.column{
+	display: flex; 
+	justify-content: center; 
+}
+
+#row_1_1 {
+	display: flex; 
+	justify-content: space-between; 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+}
+
+#column_1_1_1{
+	width: 10%; 
+	padding-left: 5%; 
+}
+
+#column_1_1_7{
+	width: 15%; 
+}	
+
+#btn_signup{
+	font-size: 13px; 
+	display: flex; 
+	background-color: green; 
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 70px;
+	justify-content: center; 
+	margin: 10px;
+	cursor: pointer;
+	
+	/*Font*/
+	color: white;
+	font-weight: bold; 
+}
+
+#search{
+	border-radius: 8px; 
+	border: none; 
+	background-color: lightgray;
+	width: 40px; 
+	height: 40px; 
+}
+
+#column_1_1_11 {
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-right: 10%; 
 }
 
 .red {
@@ -83,3 +147,4 @@
 .font-red {
   color: rgba(220, 78, 78, 0.928);
 }
+
