@@ -85,10 +85,17 @@ html{
 	justify-content: center; 
 }
 
+#row_top_1{
+	display: flex; 
+	justify-content: space-between; 
+	border-bottom: 1px solid gray; 
+  height: 40px;
+  font-size: 12px;
+}
+
 #row_1_1 {
 	display: flex; 
 	justify-content: space-between; 
-	border-top: 1px solid gray; 
 	border-bottom: 1px solid gray; 
 }
 
@@ -97,6 +104,10 @@ html{
 	justify-content: space-between; 
   border-bottom: 1px solid gray; 
   height: 50px;
+}
+
+#column_top_1_6{
+  padding-right: 17%;
 }
 
 #column_1_1_1{
@@ -114,6 +125,28 @@ html{
 
 #column_1_2_8{
   padding-right: 30%;
+}
+
+#increase_symbol{
+  color: rgb(72, 144, 44); 
+  font-weight: bold; 
+}
+
+.top_btn{
+  text-decoration: none; 
+}
+
+.blue_link{
+  text-decoration: none; 
+}
+
+.black_link{
+  text-decoration: none; 
+  color: black;
+}
+
+.top_btn:hover{
+  color: rgb(122, 208, 89); 
 }
 
 .nav_btn{
@@ -138,6 +171,28 @@ html{
   color: rgb(40, 40, 40);
   text-decoration: none;
   border-bottom: 1px solid rgb(40, 40, 40);
+}
+
+#api_key{
+	font-size: 10px; 
+	display: flex; 
+	border: 1px solid rgb(122, 208, 89); 
+	border-radius: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 60px;
+	justify-content: center; 
+	margin: 10px;
+	cursor: pointer;
+	
+	/*Font*/
+	color: rgb(122, 208, 89);
+	font-weight: bold; 
+  text-decoration: none;
+}
+
+#api_key:hover{
+  background-color: rgb(241, 255, 235);
 }
 
 #btn_signup{
