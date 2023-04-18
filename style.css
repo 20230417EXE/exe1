@@ -31,7 +31,7 @@ html{
   border-radius: 50px;
   width: 28px;
   height: 13px;
-  background-color: rgb(122, 193, 72);
+  background-color: rgb(122, 208, 89);
   margin-left: 8px;
   margin-right: 6px;
   align-self: center;
@@ -92,6 +92,13 @@ html{
 	border-bottom: 1px solid gray; 
 }
 
+#row_1_2 {
+  display: flex; 
+	justify-content: space-between; 
+  border-bottom: 1px solid gray; 
+  height: 50px;
+}
+
 #column_1_1_1{
 	width: 10%; 
 	padding-left: 2%; 
@@ -105,15 +112,38 @@ html{
   width: 12px;
 }
 
+#column_1_2_8{
+  padding-right: 30%;
+}
+
 .nav_btn{
   color: rgb(57, 57, 57);
+  text-decoration: none; 
+}
+
+.nav_btn:hover{
+  color: rgb(122, 208, 89);
   text-decoration: none;
+}
+
+.nav2_btn{
+  color: gray;
+  text-decoration: none;
+  height: 50px; 
+  display: flex;
+  align-items: center;
+}
+
+.nav2_btn:hover{
+  color: rgb(40, 40, 40);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(40, 40, 40);
 }
 
 #btn_signup{
 	font-size: 13px; 
 	display: flex; 
-	background-color: green; 
+	background-color: rgb(122, 208, 89); 
 	border-radius: 8px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -126,6 +156,10 @@ html{
 	color: white;
 	font-weight: bold; 
   text-decoration: none;
+}
+
+#btn_signup:hover{
+  background-color: rgb(72, 144, 44); 
 }
 
 #search{
@@ -156,4 +190,37 @@ html{
 
 .font-red {
   color: rgba(220, 78, 78, 0.928);
+}
+
+table{
+  border-collapse: collapse;
+  text-align: end;
+}
+
+thead{
+  border-top: solid black 1px;
+}
+td {
+  border-top:black solid 1px;
+  border-bottom: black solid 1px;
+}
+
+tr :nth-child(1){
+  text-align: start;
+}
+tr :nth-child(2){
+  text-align: start;
+}
+
+tr :nth-child(3){
+  text-align: center;
+}
+
+
+td span:nth-child(2){
+  font-size:20px;
+}
+
+td span:nth-child(3){
+  font-size: 8px;
 }
