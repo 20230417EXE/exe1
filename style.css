@@ -69,9 +69,9 @@ html{
   width: 300px;
 }
 
-  .block p {
+.block p {
 	margin: 0;
-  }
+}
 
 
 .row {
@@ -94,12 +94,21 @@ html{
 
 #column_1_1_1{
 	width: 10%; 
-	padding-left: 5%; 
+	padding-left: 2%; 
 }
 
 #column_1_1_7{
 	width: 15%; 
 }	
+
+#column_1_1_8{
+  width: 12px;
+}
+
+.nav_btn{
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+}
 
 #btn_signup{
 	font-size: 13px; 
@@ -116,13 +125,14 @@ html{
 	/*Font*/
 	color: white;
 	font-weight: bold; 
+  text-decoration: none;
 }
 
 #search{
 	border-radius: 8px; 
 	border: none; 
 	background-color: lightgray;
-	width: 40px; 
+	width: 150px; 
 	height: 40px; 
 }
 
@@ -130,7 +140,6 @@ html{
 	display: flex; 
 	justify-content: center; 
 	align-items: center; 
-	margin-right: 10%; 
 }
 
 .red {
@@ -148,4 +157,3 @@ html{
 .font-red {
   color: rgba(220, 78, 78, 0.928);
 }
-
