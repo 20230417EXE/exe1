@@ -43,10 +43,22 @@ td {
   border-bottom: black solid 1px;
 }
 
+tr :nth-child(1){
+  text-align: start;
+}
 tr :nth-child(2){
-  text-align: center;
+  text-align: start;
 }
 
 tr :nth-child(3){
   text-align: center;
+}
+
+
+td span:nth-child(2){
+  font-size:20px;
+}
+
+td span:nth-child(3){
+  font-size: 8px;
 }
