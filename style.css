@@ -157,3 +157,36 @@ html{
 .font-red {
   color: rgba(220, 78, 78, 0.928);
 }
+
+table{
+  border-collapse: collapse;
+  text-align: end;
+}
+
+thead{
+  border-top: solid black 1px;
+}
+td {
+  border-top:black solid 1px;
+  border-bottom: black solid 1px;
+}
+
+tr :nth-child(1){
+  text-align: start;
+}
+tr :nth-child(2){
+  text-align: start;
+}
+
+tr :nth-child(3){
+  text-align: center;
+}
+
+
+td span:nth-child(2){
+  font-size:20px;
+}
+
+td span:nth-child(3){
+  font-size: 8px;
+}
