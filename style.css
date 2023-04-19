@@ -1,31 +1,281 @@
+html{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 15px; 
+}
+
 .container {
-  border: 1px black solid;
+  /* border: 1px black solid; */
   margin: 0 70px;
   padding: 0 10px;
 }
 
 .small {
-  font-size: 12px;
+  font-size: 13px;
+  margin-top: 0;
+  color: rgb(75, 75, 75);
+}
+
+.headline {
+  /* border: 1px red solid; */
+  display: flex;
+  align-items: center;
 }
 
 .big {
   font-weight: 900;
   font-size: 20px;
+  margin: 0;
+}
+.button {
+  /* border: 1px black solid; */
+  border-radius: 50px;
+  width: 28px;
+  height: 13px;
+  background-color: rgb(122, 208, 89);
+  margin-left: 8px;
+  margin-right: 6px;
+  align-self: center;
+  position: relative;
+  padding: 1px;
+}
+
+.circle {
+  /* border: 1px red solid; */
+  background-color: white;
+  border-radius: 100px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin: 1px;
+  top: 1.5px;
+  left: 1.5px;
+}
+
+.headline > p:nth-child(3) {
+  font-size: 14px;
 }
 .container2 {
-  border: 1px black solid;
-  margin: 0 10px;
+  /* border: 1px black solid; */
+  /* margin: 0 10px; */
   display: flex;
+  flex: 0 0 25%;
 }
 
 .block {
-  border: 1px lightgrey solid;
-  margin: 10px;
+  margin-right: 20px;
   border-radius: 10px;
-  padding: 5px;
-  box-shadow: 2px 5px 10px lightgrey;
+  padding: 15px 0 15px 15px;
+  box-shadow: 2px 3px 10px lightgrey;
+  width: 300px;
 }
 
 .block p {
-  margin: 0;
+	margin: 0;
+}
+
+
+.row {
+	height: 70px; 
+	display:flex; 
+	align-items: center; 
+}
+
+.column{
+	display: flex; 
+	justify-content: center; 
+}
+
+#row_top_1{
+	display: flex; 
+	justify-content: space-between; 
+	border-bottom: 1px solid gray; 
+  height: 40px;
+  font-size: 12px;
+}
+
+#row_1_1 {
+	display: flex; 
+	justify-content: space-between; 
+	border-bottom: 1px solid gray; 
+}
+
+#row_1_2 {
+  display: flex; 
+	justify-content: space-between; 
+  border-bottom: 1px solid gray; 
+  height: 50px;
+}
+
+#column_top_1_6{
+  padding-right: 17%;
+}
+
+#column_1_1_1{
+	width: 10%; 
+	padding-left: 2%; 
+}
+
+#column_1_1_7{
+	width: 15%; 
+}	
+
+#column_1_1_8{
+  width: 12px;
+}
+
+#column_1_2_8{
+  padding-right: 30%;
+}
+
+#increase_symbol{
+  color: rgb(72, 144, 44); 
+  font-weight: bold; 
+}
+
+.top_btn{
+  text-decoration: none; 
+}
+
+.blue_link{
+  text-decoration: none; 
+}
+
+.black_link{
+  text-decoration: none; 
+  color: black;
+}
+
+.top_btn:hover{
+  color: rgb(122, 208, 89); 
+}
+
+.nav_btn{
+  color: rgb(57, 57, 57);
+  text-decoration: none; 
+}
+
+.nav_btn:hover{
+  color: rgb(122, 208, 89);
+  text-decoration: none;
+}
+
+.nav2_btn{
+  color: gray;
+  text-decoration: none;
+  height: 50px; 
+  display: flex;
+  align-items: center;
+}
+
+.nav2_btn:hover{
+  color: rgb(40, 40, 40);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(40, 40, 40);
+}
+
+#api_key{
+	font-size: 10px; 
+	display: flex; 
+	border: 1px solid rgb(122, 208, 89); 
+	border-radius: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	width: 60px;
+	justify-content: center; 
+	margin: 10px;
+	cursor: pointer;
+	
+	/*Font*/
+	color: rgb(122, 208, 89);
+	font-weight: bold; 
+  text-decoration: none;
+}
+
+#api_key:hover{
+  background-color: rgb(241, 255, 235);
+}
+
+#btn_signup{
+	font-size: 13px; 
+	display: flex; 
+	background-color: rgb(122, 208, 89); 
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 70px;
+	justify-content: center; 
+	margin: 10px;
+	cursor: pointer;
+	
+	/*Font*/
+	color: white;
+	font-weight: bold; 
+  text-decoration: none;
+}
+
+#btn_signup:hover{
+  background-color: rgb(72, 144, 44); 
+}
+
+#search{
+	border-radius: 8px; 
+	border: none; 
+	background-color: lightgray;
+	width: 150px; 
+	height: 40px; 
+}
+
+#column_1_1_11 {
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+}
+
+.red {
+  border-left: rgba(239, 38, 38, 0.934) 8px solid;
+}
+
+.green {
+  border-left: rgb(122, 193, 72) 8px solid;
+}
+
+.grey {
+  border-left: grey 8px solid;
+}
+
+.font-red {
+  color: rgba(220, 78, 78, 0.928);
+}
+
+table{
+  border-collapse: collapse;
+  text-align: end;
+}
+
+thead{
+  border-top: solid black 1px;
+}
+td {
+  border-top:black solid 1px;
+  border-bottom: black solid 1px;
+}
+
+tr :nth-child(1){
+  text-align: start;
+}
+tr :nth-child(2){
+  text-align: start;
+}
+
+tr :nth-child(3){
+  text-align: center;
+}
+
+
+td span:nth-child(2){
+  font-size:20px;
+}
+
+td span:nth-child(3){
+  font-size: 8px;
 }
