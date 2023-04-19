@@ -1,6 +1,6 @@
 html{
-	font-family: Arial, Helvetica, sans-serif; 
-	font-size: 15px; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 15px; 
 }
 
 .container {
@@ -70,38 +70,38 @@ html{
 }
 
 .block p {
-	margin: 0;
+  margin: 0;
 }
 
 
 .row {
-	height: 70px; 
-	display:flex; 
-	align-items: center; 
+  height: 70px; 
+  display:flex; 
+  align-items: center; 
 }
 
 .column{
-	display: flex; 
-	justify-content: center; 
+  display: flex; 
+  justify-content: center; 
 }
 
 #row_top_1{
-	display: flex; 
-	justify-content: space-between; 
-	border-bottom: 1px solid gray; 
+  display: flex; 
+  justify-content: space-between; 
+  border-bottom: 1px solid gray; 
   height: 40px;
   font-size: 12px;
 }
 
 #row_1_1 {
-	display: flex; 
-	justify-content: space-between; 
-	border-bottom: 1px solid gray; 
+  display: flex; 
+  justify-content: space-between; 
+  border-bottom: 1px solid gray; 
 }
 
 #row_1_2 {
   display: flex; 
-	justify-content: space-between; 
+  justify-content: space-between; 
   border-bottom: 1px solid gray; 
   height: 50px;
 }
@@ -111,12 +111,12 @@ html{
 }
 
 #column_1_1_1{
-	width: 10%; 
-	padding-left: 2%; 
+  width: 10%; 
+  padding-left: 2%; 
 }
 
 #column_1_1_7{
-	width: 15%; 
+  width: 15%; 
 }	
 
 #column_1_1_8{
@@ -174,20 +174,20 @@ html{
 }
 
 #api_key{
-	font-size: 10px; 
-	display: flex; 
-	border: 1px solid rgb(122, 208, 89); 
-	border-radius: 5px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	width: 60px;
-	justify-content: center; 
-	margin: 10px;
-	cursor: pointer;
-	
-	/*Font*/
-	color: rgb(122, 208, 89);
-	font-weight: bold; 
+  font-size: 10px; 
+  display: flex; 
+  border: 1px solid rgb(122, 208, 89); 
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 60px;
+  justify-content: center; 
+  margin: 10px;
+  cursor: pointer;
+  
+  /*Font*/
+  color: rgb(122, 208, 89);
+  font-weight: bold; 
   text-decoration: none;
 }
 
@@ -196,20 +196,20 @@ html{
 }
 
 #btn_signup{
-	font-size: 13px; 
-	display: flex; 
-	background-color: rgb(122, 208, 89); 
-	border-radius: 8px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 70px;
-	justify-content: center; 
-	margin: 10px;
-	cursor: pointer;
-	
-	/*Font*/
-	color: white;
-	font-weight: bold; 
+  font-size: 13px; 
+  display: flex; 
+  background-color: rgb(122, 208, 89); 
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 70px;
+  justify-content: center; 
+  margin: 10px;
+  cursor: pointer;
+  
+  /*Font*/
+  color: white;
+  font-weight: bold; 
   text-decoration: none;
 }
 
@@ -218,17 +218,17 @@ html{
 }
 
 #search{
-	border-radius: 8px; 
-	border: none; 
-	background-color: lightgray;
-	width: 150px; 
-	height: 40px; 
+  border-radius: 8px; 
+  border: none; 
+  background-color: lightgray;
+  width: 150px; 
+  height: 40px; 
 }
 
 #column_1_1_11 {
-	display: flex; 
-	justify-content: center; 
-	align-items: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .red {
