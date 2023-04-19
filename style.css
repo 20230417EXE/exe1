@@ -17,15 +17,14 @@ html{
 
 .headline {
   /* border: 1px red solid; */
-  display: flex;
   align-items: center;
 }
 
 .big {
   font-weight: 900;
   font-size: 20px;
-  margin: 0;
 }
+
 .button {
   /* border: 1px black solid; */
   border-radius: 50px;
@@ -57,7 +56,6 @@ html{
 .container2 {
   /* border: 1px black solid; */
   /* margin: 0 10px; */
-  display: flex;
   flex: 0 0 25%;
 }
 
@@ -69,39 +67,34 @@ html{
   width: 300px;
 }
 
-.block p {
+.block p, .big {
   margin: 0;
 }
 
+.row, .column, .container2, .headline, #row_top_1, #row_1_1, #row_1_2, .nav2_btn {
+  display: flex; 
+}
 
 .row {
   height: 70px; 
-  display:flex; 
   align-items: center; 
 }
 
 .column{
-  display: flex; 
   justify-content: center; 
 }
 
-#row_top_1{
-  display: flex; 
-  justify-content: space-between; 
+#row_top_1, #row_1_1, #row_1_2 {
+  justify-content: space-between;
   border-bottom: 1px solid gray; 
+}
+
+#row_top_1{
   height: 40px;
   font-size: 12px;
 }
 
-#row_1_1 {
-  display: flex; 
-  justify-content: space-between; 
-  border-bottom: 1px solid gray; 
-}
-
 #row_1_2 {
-  display: flex; 
-  justify-content: space-between; 
   border-bottom: 1px solid gray; 
   height: 50px;
 }
@@ -123,6 +116,11 @@ html{
   width: 12px;
 }
 
+#column_1_2_2{
+  font-weight: bold; 
+  border-bottom: 1px solid rgb(122, 208, 89);
+}
+
 #column_1_2_8{
   padding-right: 30%;
 }
@@ -132,44 +130,34 @@ html{
   font-weight: bold; 
 }
 
-.top_btn{
+.top_btn, .blue_link, .black_link, .nav2_btn, .nav2_btn:hover{
   text-decoration: none; 
 }
 
-.blue_link{
-  text-decoration: none; 
-}
-
-.black_link{
-  text-decoration: none; 
+.black_link, #column_1_2_2{
   color: black;
 }
 
-.top_btn:hover{
+.top_btn:hover, .nav_btn:hover{
   color: rgb(122, 208, 89); 
 }
 
 .nav_btn{
   color: rgb(57, 57, 57);
-  text-decoration: none; 
 }
 
-.nav_btn:hover{
-  color: rgb(122, 208, 89);
+.nav_btn:hover, .nav_btn{
   text-decoration: none;
 }
 
 .nav2_btn{
   color: gray;
-  text-decoration: none;
   height: 50px; 
-  display: flex;
   align-items: center;
 }
 
 .nav2_btn:hover{
   color: rgb(40, 40, 40);
-  text-decoration: none;
   border-bottom: 1px solid rgb(40, 40, 40);
 }
 
@@ -252,11 +240,10 @@ table{
   text-align: end;
 }
 
-thead{
+thead, td{
   border-top: solid black 1px;
 }
 td {
-  border-top:black solid 1px;
   border-bottom: black solid 1px;
 }
 
